@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1;net6.0</TargetFramework>
+    <RootNamespace>_9_8._TargetPlatform3._1</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\9_8_1. TestTargetLibrary\9_8_1. TestTargetLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
