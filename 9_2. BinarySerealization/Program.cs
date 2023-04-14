@@ -6,6 +6,7 @@ using MemoryPack;
 
 BenchmarkRunner.Run<SerializationBenchmarks>();
 
+
 [MessagePackObject]
 [MemoryPackable]
 public partial class MyClass
@@ -40,7 +41,7 @@ public class SerializationBenchmarks
     public string JsonSerialize() => JsonSerializer.Serialize(_testObject);
 
     [Benchmark]
-    public MyClass JsonDeserialize() => JsonSerializer.Deserialize<MyClass>(_jsonData);
+    public MyClass? JsonDeserialize() => JsonSerializer.Deserialize<MyClass>(_jsonData);
 
 
     [Benchmark]

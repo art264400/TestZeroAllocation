@@ -5,6 +5,7 @@ using System.Text;
 
 BenchmarkRunner.Run<StringBanchmark>();
 
+
 //unsafe
 //{
 //    char* chars = stackalloc char[10]; // выделение памяти на стеке для хранения массива символов

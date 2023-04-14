@@ -37,6 +37,17 @@ public class StringInitializationBenchmark
         }
         return new string(charArray);
     }
+
+    [Benchmark]
+    public string CreateWithNewStringAndSpanArray()
+    {
+        Span<char> charArray = stackalloc char[10];
+        for (int i = 0; i < charArray.Length; i++)
+        {
+            charArray[i] = (char)('A' + i);
+        }
+        return new string(charArray);
+    }
 }
 
 

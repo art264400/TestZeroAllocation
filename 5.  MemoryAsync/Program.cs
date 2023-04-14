@@ -35,7 +35,7 @@ public class MemoryVsArrayCopy
         Memory<int> dataSlice = _dataMemory.Slice(0, DataSize / 2);
         await ProcessDataAsync(dataSlice);
     }
-
+    
     private async Task ProcessDataAsync(int[] data)
     {
         await Task.Delay(20);

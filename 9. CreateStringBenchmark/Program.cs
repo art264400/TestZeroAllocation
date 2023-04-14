@@ -48,6 +48,17 @@ public class StringInitializationBenchmark
     }
 
     [Benchmark]
+    public string CreateWithNewStringAndSpanArray()
+    {
+        Span<char> charArray = stackalloc char[10];
+        for (int i = 0; i < charArray.Length; i++)
+        {
+            charArray[i] = '_';
+        }
+        return new string(charArray);
+    }
+
+    [Benchmark]
     public string CreateWithNewString()
     {
         return new string('_', 10);

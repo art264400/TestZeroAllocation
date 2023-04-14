@@ -1,6 +1,4 @@
-﻿
-
-using BenchmarkDotNet.Attributes;
+﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
 
 BenchmarkRunner.Run<TestSpan>();
