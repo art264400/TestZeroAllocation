@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. CompateNewtonsJsonAndSys
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. ReadOnlySeq", "8. ReadOnlySeq\8. ReadOnlySeq.csproj", "{BF441A96-8861-4E79-8D64-E9F4107FADD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationPrimitives", "SynchronizationPrimitives\SynchronizationPrimitives.csproj", "{AF5F4E3B-8A60-4822-A257-EDECD3B56146}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{BF441A96-8861-4E79-8D64-E9F4107FADD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF441A96-8861-4E79-8D64-E9F4107FADD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF441A96-8861-4E79-8D64-E9F4107FADD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF5F4E3B-8A60-4822-A257-EDECD3B56146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5F4E3B-8A60-4822-A257-EDECD3B56146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5F4E3B-8A60-4822-A257-EDECD3B56146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5F4E3B-8A60-4822-A257-EDECD3B56146}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
