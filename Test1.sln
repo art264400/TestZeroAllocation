@@ -5,35 +5,43 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBencmark", "Test1\StringBencmark.csproj", "{FC6F95F4-FE5D-40A4-A885-41A70277456E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.TestRecord", "TestStruct\2.TestRecord.csproj", "{383FD3A2-64E3-4194-9174-EF2F3C5645A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.TestRecord", "TestStruct\2.TestRecord.csproj", "{383FD3A2-64E3-4194-9174-EF2F3C5645A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Span", "Span\3.Span.csproj", "{82F0114A-D511-4CD6-AAE9-BFFB4CE1D768}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Span", "Span\3.Span.csproj", "{82F0114A-D511-4CD6-AAE9-BFFB4CE1D768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Struct", "1.Struct\1.Struct.csproj", "{7DBC926C-1A6A-4EB3-B5A6-BAC3ED0DEB89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Struct", "1.Struct\1.Struct.csproj", "{7DBC926C-1A6A-4EB3-B5A6-BAC3ED0DEB89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Span 2", "4. Memory\4. Span 2.csproj", "{0AAFB36B-271A-46E8-8B2B-AD588C5D40CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Span 2", "4. Memory\4. Span 2.csproj", "{0AAFB36B-271A-46E8-8B2B-AD588C5D40CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.  MemoryAsync", "5.  MemoryAsync\5.  MemoryAsync.csproj", "{D087D9D5-A33D-4478-8EC5-88ACDEFD855E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.  MemoryAsync", "5.  MemoryAsync\5.  MemoryAsync.csproj", "{D087D9D5-A33D-4478-8EC5-88ACDEFD855E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. ReadOnlySpan", "6. ReadOnlySpan\6. ReadOnlySpan.csproj", "{CB7A132E-BCEA-469E-AC71-51287F8E87F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. ReadOnlySpan", "6. ReadOnlySpan\6. ReadOnlySpan.csproj", "{CB7A132E-BCEA-469E-AC71-51287F8E87F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. CreateStringBenchmark", "9. CreateStringBenchmark\9. CreateStringBenchmark.csproj", "{C72BA1E1-5673-4E85-804B-D3810D62DC4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9. CreateStringBenchmark", "9. CreateStringBenchmark\9. CreateStringBenchmark.csproj", "{C72BA1E1-5673-4E85-804B-D3810D62DC4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_1. CreateStringBencmark2", "10. CreateStringBencmark2\9_1. CreateStringBencmark2.csproj", "{068E84E0-48C2-4691-B54C-2EF0489DB753}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_1. CreateStringBencmark2", "10. CreateStringBencmark2\9_1. CreateStringBencmark2.csproj", "{068E84E0-48C2-4691-B54C-2EF0489DB753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_2. BinarySerealization", "9_2. BinarySerealization\9_2. BinarySerealization.csproj", "{89B0B039-696D-4817-BF3B-2EC58405AEDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_2. BinarySerealization", "9_2. BinarySerealization\9_2. BinarySerealization.csproj", "{89B0B039-696D-4817-BF3B-2EC58405AEDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_4. TestTargetNet7", "9_4. TestTargetNet7\9_4. TestTargetNet7.csproj", "{4E63ED7B-F36D-4A64-9F19-D6474EF8CA78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_4. TestTargetNet7", "9_4. TestTargetNet7\9_4. TestTargetNet7.csproj", "{4E63ED7B-F36D-4A64-9F19-D6474EF8CA78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryTest", "LibraryTest\LibraryTest.csproj", "{BD41001B-C9DD-4913-9840-035EF9EA3B7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryTest", "LibraryTest\LibraryTest.csproj", "{BD41001B-C9DD-4913-9840-035EF9EA3B7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryTestNet3.1", "LibraryTestNet3.1\LibraryTestNet3.1.csproj", "{333F3D43-148D-483F-9320-644C8F6C166C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryTestNet3.1", "LibraryTestNet3.1\LibraryTestNet3.1.csproj", "{333F3D43-148D-483F-9320-644C8F6C166C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. CompateNewtonsJsonAndSystemTextJson", "6. CompateNewtonsJsonAndSystemTextJson\7. CompateNewtonsJsonAndSystemTextJson.csproj", "{9FEEC17A-E83A-4B0E-B8E0-6FF7768D9F43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. CompateNewtonsJsonAndSystemTextJson", "6. CompateNewtonsJsonAndSystemTextJson\7. CompateNewtonsJsonAndSystemTextJson.csproj", "{9FEEC17A-E83A-4B0E-B8E0-6FF7768D9F43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. ReadOnlySeq", "8. ReadOnlySeq\8. ReadOnlySeq.csproj", "{BF441A96-8861-4E79-8D64-E9F4107FADD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8. ReadOnlySeq", "8. ReadOnlySeq\8. ReadOnlySeq.csproj", "{BF441A96-8861-4E79-8D64-E9F4107FADD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationPrimitives", "SynchronizationPrimitives\SynchronizationPrimitives.csproj", "{AF5F4E3B-8A60-4822-A257-EDECD3B56146}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynchronizationPrimitives", "SynchronizationPrimitives\SynchronizationPrimitives.csproj", "{AF5F4E3B-8A60-4822-A257-EDECD3B56146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinText", "JoinText\JoinText.csproj", "{4F7892F1-D161-472A-9177-D4319942CDB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateFiles", "CreateFiles\CreateFiles.csproj", "{8C52A881-6794-45F7-96CA-584494745904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFiles", "SearchFiles\SearchFiles.csproj", "{96CBC33D-9E4A-4C49-932B-8B04CACA5C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFiles2", "SearchFiles2\SearchFiles2.csproj", "{5CEB9BE7-4E49-49A6-A35A-DC806B1AB5C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +113,22 @@ Global
 		{AF5F4E3B-8A60-4822-A257-EDECD3B56146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF5F4E3B-8A60-4822-A257-EDECD3B56146}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF5F4E3B-8A60-4822-A257-EDECD3B56146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7892F1-D161-472A-9177-D4319942CDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7892F1-D161-472A-9177-D4319942CDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7892F1-D161-472A-9177-D4319942CDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7892F1-D161-472A-9177-D4319942CDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C52A881-6794-45F7-96CA-584494745904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C52A881-6794-45F7-96CA-584494745904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C52A881-6794-45F7-96CA-584494745904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C52A881-6794-45F7-96CA-584494745904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96CBC33D-9E4A-4C49-932B-8B04CACA5C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CBC33D-9E4A-4C49-932B-8B04CACA5C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CBC33D-9E4A-4C49-932B-8B04CACA5C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CBC33D-9E4A-4C49-932B-8B04CACA5C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CEB9BE7-4E49-49A6-A35A-DC806B1AB5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEB9BE7-4E49-49A6-A35A-DC806B1AB5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEB9BE7-4E49-49A6-A35A-DC806B1AB5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEB9BE7-4E49-49A6-A35A-DC806B1AB5C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
