@@ -62,7 +62,7 @@
 
         public void SomeMethod()
         {
-            _semaphore.WaitAsync();
+            //_semaphore.WaitAsync();
             try
             {
                 // Критическая секция кода

@@ -2,7 +2,7 @@
 
 string[] fileExtensions = new[]
        {
-            "bmp", "png", "jpg", "jpeg", "gif", "tif", "tiff", "doc", "docx", "rtf", "txt", "pdf", "xls", "xlsx", "rar", "zip", "7z", "ppt", "pptx", "odf"
+            "bmp", "png", "jpg", "jpeg", "gif", "tif", "tiff", "doc", "docx", "cer", "cert", "xml", "xls", "xlsx", "rar", "zip", "7z", "ppt", "pptx", "odf"
         };
 var rnd = new Random();
 int count = 0;
@@ -15,7 +15,7 @@ while (true)
     string absolutePath = Path.Combine("C:\\Users\\Arthur\\Documents\\Files", guidFile.PhysicalPath);
     var directoryName = Path.GetDirectoryName(absolutePath);
     Directory.CreateDirectory(directoryName);
-    File.WriteAllBytes(absolutePath, new byte[rnd.Next(100, 200)]);
+    File.WriteAllBytes(absolutePath, new byte[rnd.Next(1000, 2000)]);
     count++;
 }
 
